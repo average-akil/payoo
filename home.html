@@ -11,8 +11,10 @@
       rel="stylesheet"
       type="text/css"
     />
+    
   </head>
   <body>
+   
     <main class="flex justify-center bg-white min-h-screen">
       <div class="mockup-phone border-primary">
         <div class="mockup-phone-camera"></div>
@@ -22,7 +24,7 @@
             <div class="flex justify-center pt-8">
               <div class="stats shadow ">
                 <div class="stat">
-                  <div class="stat-value">89400</div>
+                  <div id="account-balance" class="stat-value">89400</div>
                   <div class="stat-desc">Available Balance</div>
                 </div>
               </div>
@@ -31,7 +33,7 @@
             <!-- Divider -->
             <div class="divider"></div>
             <!-- user action button -->
-            <div class="flex justify-center">
+            <div class="flex justify-center space-x-2">
               <button class="btn btn-lg bg-slate-300" id="btn-add-money">Add money</button>
 
               <button class="btn btn-lg bg-slate-300">Cash out</button>
@@ -53,7 +55,7 @@
 
                 <button
                   class="btn btn-neutral mt-4 bg-blue-500 hover:bg-blue-700 id"
-                  id="btn-login"
+                  id="btn-login popup"
                 >
                   Add money
                 </button>
